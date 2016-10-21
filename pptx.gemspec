@@ -13,5 +13,7 @@ Gem::Specification.new do |s|
   s.license     = 'MIT'
 
   s.add_runtime_dependency 'nokogiri', '~> 1.6'
+  s.add_runtime_dependency 'rubyzip', '1.1.7'
   s.add_development_dependency 'rspec', '~> 3.2'
+  
 end
